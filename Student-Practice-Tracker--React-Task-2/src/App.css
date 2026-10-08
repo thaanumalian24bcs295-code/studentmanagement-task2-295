@@ -1,0 +1,59 @@
+.app {
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #2563eb;
+}
+
+.profile {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.profile h2 {
+  color: #333;
+}
+
+.profile p {
+  font-size: 18px;
+  margin: 12px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  color: #555;
+}
